@@ -1,0 +1,57 @@
+@media print, screen and (min-width: 768px) {
+  ._sp {
+    display: none;
+  }
+}
+
+._pc {
+  display: none;
+}
+
+@media print, screen and (min-width: 768px) {
+  ._pc {
+    display: block;
+  }
+}
+
+.header #header-image {
+  background-image: url("/image/wood.jpeg");
+  overflow: hidden;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header .pc {
+  display: none;
+}
+
+@media print, screen and (min-width: 768px) {
+  .header .pc {
+    display: block;
+  }
+}
+
+.header .box-container img {
+  width: 100%;
+  /*max-width: 960px;*/
+}
+
+.header #header-image-sp {
+  width: 100%;
+}
+
+.header .sp {
+  display: block;
+}
+
+@media print, screen and (min-width: 768px) {
+  .header .sp {
+    display: none;
+  }
+}
+
+.header #header-image-sp img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

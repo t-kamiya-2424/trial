@@ -1,0 +1,33 @@
+.header {
+  #header-image {
+    background-image: url("/image/wood.jpeg");
+    overflow: hidden;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pc {
+    display: none;
+    @include overTab {
+      display: block;
+    }
+  }
+  .box-container {
+  }
+  .box-container img {
+    width: 100%;
+    /*max-width: 960px;*/
+  }
+  #header-image-sp {
+    width: 100%;
+  }
+  .sp {
+    display: block;
+    @include overTab {
+      display: none;
+    }
+  }
+  #header-image-sp img {
+    width: 100%;
+  }
+}
